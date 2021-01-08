@@ -34,9 +34,11 @@ class Box {
   float GetXposition() {
     return Xposition;
   }
+  
   void SetXposition(float x) {
     Xposition = x;
   }
+  
   void Show() {
     fill(127);
     rect(Xposition, height - 50 - size, size, size);
